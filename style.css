@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    gap: 20px;
+
+    padding: 10px;
+}
+
+header svg{
+    height: 32px;
+    margin-right: auto;
+}
+
+header ion-icon{
+    font-size: 20px;
+}
+
+
+main nav{
+    padding: 5px;
+    display: flex;
+    gap: 6px;
+}
+
+main nav button{
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main button:hover{
+    background-color: black;
+    color: white;
+}
+
+main section{
+    padding: 0 6px;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.carro{
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.video{
+    display: flex;
+    padding: 6px;
+
+    gap: 10px;
+}
+
+.titulo{
+    display: grid;
+}
+
+.titulo h6{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.titulo p{
+    font-size: 12px;
+    opacity: 0,7;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 10px;
+}
+
+footer div{
+    width: 50px;
+    display: grid;
+    justify-items: center;
+}
+footer div ion-icon {
+    font-size: 24px;
+}
+
+footer span{
+    font-size: 12px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
